@@ -5,7 +5,7 @@
  * @LastEditTime: 2021-11-10 21:16:31
    -->
 
-[![GitHub Stars](https://img.shields.io/github/stars/666wcy/ARPT-Bot.svg?color=inactived&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver/docker-qbittorrent) [![Docker Pulls](https://img.shields.io/docker/pulls/benchao/arpt.svg?color=inactived&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=pulls&logo=docker)](https://hub.docker.com/repository/docker/benchao/arpt) [![GitHub Release](https://img.shields.io/docker/v/benchao/arpt?color=inactived&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=最新版本&logo=docker)](https://github.com/linuxserver/docker-qbittorrent/releases)
+[![GitHub Stars](https://img.shields.io/github/stars/666wcy/ARPT-Bot.svg?color=inactived&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://githubfast.com/linuxserver/docker-qbittorrent) [![Docker Pulls](https://img.shields.io/docker/pulls/benchao/arpt.svg?color=inactived&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=pulls&logo=docker)](https://hub.docker.com/repository/docker/benchao/arpt) [![GitHub Release](https://img.shields.io/docker/v/benchao/arpt?color=inactived&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=最新版本&logo=docker)](https://githubfast.com/linuxserver/docker-qbittorrent/releases)
 
 # 更新说明
 
@@ -20,7 +20,7 @@ v2.0.9
 
 修改rclone调用方式，改为rc http api调用。
 
-新增对[RcloneNg](https://github.com/ElonH/RcloneNg)的支持。
+新增对[RcloneNg](https://githubfast.com/ElonH/RcloneNg)的支持。
 
 映射rclone rc，支持自定义对rclone rc进行操作,具体操作可参考[rclone rc教程](https://rclone.org/rc/)
 
@@ -28,9 +28,9 @@ v2.0.9
 
 此版本后支持自动更新，Python文件的变动只需重启即可更新，其它硬性更新才会通过docker更新版本
 
-修复aria2面板添加的任务与conf文件的配置冲突导致本地文件被删除 [#18](https://github.com/666wcy/ARPT-Bot/issues/18)[#16](https://github.com/666wcy/ARPT-Bot/issues/16)
+修复aria2面板添加的任务与conf文件的配置冲突导致本地文件被删除 [#18](https://githubfast.com/666wcy/ARPT-Bot/issues/18)[#16](https://githubfast.com/666wcy/ARPT-Bot/issues/16)
 
-修复odprivate命令失效(与后续指令冲突导致失效) [#17](https://github.com/666wcy/ARPT-Bot/issues/17)
+修复odprivate命令失效(与后续指令冲突导致失效) [#17](https://githubfast.com/666wcy/ARPT-Bot/issues/17)
 
 修复默认面板账号密码为默认，存在安全隐患，修改为账号：`admin`，密码:你设置的`Aria2_secret`的值
 
@@ -44,7 +44,7 @@ v2.0.8
 
 新增支持多种子文件同时发送
 
-同步原作者[更新](https://github.com/gaowanliang/OneDriveShareLinkPushAria2/commit/a8dd447040ccd0aca89a3e2680a871200ca8c446)，修复od分享链接文件数直到30的问题，感谢原作者
+同步原作者[更新](https://githubfast.com/gaowanliang/OneDriveShareLinkPushAria2/commit/a8dd447040ccd0aca89a3e2680a871200ca8c446)，修复od分享链接文件数直到30的问题，感谢原作者
 
 
 
@@ -79,16 +79,16 @@ nhentai支持直接识别链接下载
 
 v2.0.4
 
-合并[搜图机器人](https://github.com/666wcy/search_photo-telegram-bot-heroku)，支持[saucenao](https://saucenao.com/)、[WhatAnime](https://trace.moe/)、[ascii2d](https://ascii2d.net/)、[iqdb](http://www.iqdb.org/)
+合并[搜图机器人](https://githubfast.com/666wcy/search_photo-telegram-bot-heroku)，支持[saucenao](https://saucenao.com/)、[WhatAnime](https://trace.moe/)、[ascii2d](https://ascii2d.net/)、[iqdb](http://www.iqdb.org/)
 
 搜索下载哔咔的本子，支持ZIP文件格式发送到TG和上传网盘
 
-对接 [nhentai](https://github.com/RicterZ/nhentai),下载nhentai本子并支持以ZIP文件格式发送TG、ZIP格式上传网盘、网页格式发送到TG
+对接 [nhentai](https://githubfast.com/RicterZ/nhentai),下载nhentai本子并支持以ZIP文件格式发送TG、ZIP格式上传网盘、网页格式发送到TG
 
 
 v2.0.3
 
-对接[OneDriveShareLinkPushAria2](https://github.com/gaowanliang/OneDriveShareLinkPushAria2)的更新，支持sharepoint分享链接。
+对接[OneDriveShareLinkPushAria2](https://githubfast.com/gaowanliang/OneDriveShareLinkPushAria2)的更新，支持sharepoint分享链接。
 
 修复网易云歌单显示不全的问题。
 
@@ -106,7 +106,7 @@ v1.1.7
 
 尝试修复下载卡99%的概率性问题，效果未知。
 
-新增网易云音乐的下载，目前支持搜索下载，id下载，整个歌单下载，支持发送到tg和上传到网盘。API接口项目：[NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi),目前使用的是本人的API，有黑胶会员，后续会支持自定义API地址。
+新增网易云音乐的下载，目前支持搜索下载，id下载，整个歌单下载，支持发送到tg和上传到网盘。API接口项目：[NeteaseCloudMusicApi](https://githubfast.com/Binaryify/NeteaseCloudMusicApi),目前使用的是本人的API，有黑胶会员，后续会支持自定义API地址。
 
 QQ音乐如果有稳定接口项目，也可推荐对接Bot
 
@@ -136,7 +136,7 @@ v1.1.5
 
 v1.1.4
 
-新增下载OneDrive 公开分享链接中的文件，保持文件路径推送到Aria2.已实现。采用项目地址：[OneDriveShareLinkPushAria2](https://github.com/gaowanliang/OneDriveShareLinkPushAria2)
+新增下载OneDrive 公开分享链接中的文件，保持文件路径推送到Aria2.已实现。采用项目地址：[OneDriveShareLinkPushAria2](https://githubfast.com/gaowanliang/OneDriveShareLinkPushAria2)
 
 修复**downtgfile**命令下载视频失败的错误
 
@@ -149,17 +149,17 @@ v1.1.4
 
 一个基于Python3的Bot。目前支持以Docker的方式部署在vps上。
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=666wcy&repo=ARPT-Bot)](https://github.com/666wcy/ARPT-Bot)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=666wcy&repo=ARPT-Bot)](https://githubfast.com/666wcy/ARPT-Bot)
 
 主要功能:
 
 - [x] 文件管理
-  - [x] 修改主界面为 [filebrowser](https://github.com/filebrowser/filebrowser)，账号为**admin**，密码为你设定的`Aria2_secret`,主界面路径：http://ip:port,请自行修改密码
+  - [x] 修改主界面为 [filebrowser](https://githubfast.com/filebrowser/filebrowser)，账号为**admin**，密码为你设定的`Aria2_secret`,主界面路径：http://ip:port,请自行修改密码
 
 - [x] 网页面板
-  - [x] 支持 [AriaNg](https://github.com/mayswind/AriaNg) 面板,地址为：https://ip:port/ng/
+  - [x] 支持 [AriaNg](https://githubfast.com/mayswind/AriaNg) 面板,地址为：https://ip:port/ng/
   - [x] 用**Nginx**为内部端口反代，替换原来的的Python Flask，更加轻量
-- [x] 支持[RcloneNg](https://github.com/ElonH/RcloneNg)，登录时地址为`http://ip:port`,请自行修改`ip`和`port`，用户名为root,密码为你设定的`Aria2_secret`
+- [x] 支持[RcloneNg](https://githubfast.com/ElonH/RcloneNg)，登录时地址为`http://ip:port`,请自行修改`ip`和`port`，用户名为root,密码为你设定的`Aria2_secret`
 
 
 - [x] Aria2
@@ -171,7 +171,7 @@ v1.1.4
   - [x] 支持aria2面板类工具rpc连接(get、post方式)
   - [x] 支持自动上传面板类工具rpc连接添加的任务自动上传(不显示进度)。通过面板添加的任务上传方式更改为P大的上传脚本，保持原有路径。
   - [x] 采用P大的配置，自动添加tracker。
-  - [x] 下载OneDrive、sharepoint公开分享链接中的文件，保持文件路径推送到Aria2.已实现。采用项目地址：[OneDriveShareLinkPushAria2](https://github.com/gaowanliang/OneDriveShareLinkPushAria2)
+  - [x] 下载OneDrive、sharepoint公开分享链接中的文件，保持文件路径推送到Aria2.已实现。采用项目地址：[OneDriveShareLinkPushAria2](https://githubfast.com/gaowanliang/OneDriveShareLinkPushAria2)
   - [ ] Rss自动下载，已有成品，尚未对接
 
 - [x] Rclone
@@ -207,9 +207,9 @@ v1.1.4
   - [ ] 添加Bot白名单
 
 - [x] 图片相关
-  - [x] 合并[搜图机器人](https://github.com/666wcy/search_photo-telegram-bot-heroku)，支持[saucenao](https://saucenao.com/)、[WhatAnime](https://trace.moe/)、[ascii2d](https://ascii2d.net/)、[iqdb](http://www.iqdb.org/)
+  - [x] 合并[搜图机器人](https://githubfast.com/666wcy/search_photo-telegram-bot-heroku)，支持[saucenao](https://saucenao.com/)、[WhatAnime](https://trace.moe/)、[ascii2d](https://ascii2d.net/)、[iqdb](http://www.iqdb.org/)
   - [x] 搜索下载哔咔的本子，支持ZIP文件格式发送到TG和上传网盘
-  - [x] 对接 [nhentai](https://github.com/RicterZ/nhentai),下载nhentai本子并支持以ZIP文件格式发送TG、ZIP格式上传网盘、网页格式发送到TG
+  - [x] 对接 [nhentai](https://githubfast.com/RicterZ/nhentai),下载nhentai本子并支持以ZIP文件格式发送TG、ZIP格式上传网盘、网页格式发送到TG
   - [x] 本子的搜索，支持哔咔、ehentai、nhentai
   - [x] saucenao搜图支持快捷搜索
 
@@ -333,23 +333,23 @@ Docker目前不支持自动更新，目前更新需要自行重装新镜像版�
 
 # 感谢下面大佬的贡献
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ytdl-org&repo=youtube-dl)](https://github.com/ytdl-org/youtube-dl)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ytdl-org&repo=youtube-dl)](https://githubfast.com/ytdl-org/youtube-dl)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=pyrogram&repo=pyrogram)](https://github.com/pyrogram/pyrogram)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=pyrogram&repo=pyrogram)](https://githubfast.com/pyrogram/pyrogram)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=pawamoy&repo=aria2p)](https://github.com/pawamoy/aria2p)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=pawamoy&repo=aria2p)](https://githubfast.com/pawamoy/aria2p)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=FolderMagic&repo=FolderMagic)](https://github.com/FolderMagic/FolderMagic)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=FolderMagic&repo=FolderMagic)](https://githubfast.com/FolderMagic/FolderMagic)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=mayswind&repo=AriaNg)](https://github.com/mayswind/AriaNg)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=mayswind&repo=AriaNg)](https://githubfast.com/mayswind/AriaNg)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cokemine&repo=ServerStatus-Hotaru)](https://github.com/cokemine/ServerStatus-Hotaru)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cokemine&repo=ServerStatus-Hotaru)](https://githubfast.com/cokemine/ServerStatus-Hotaru)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P3TERX&repo=aria2.conf)](https://github.com/P3TERX/aria2.conf)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=P3TERX&repo=aria2.conf)](https://githubfast.com/P3TERX/aria2.conf)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=filebrowser&repo=filebrowser)](https://github.com/filebrowser/filebrowser)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=filebrowser&repo=filebrowser)](https://githubfast.com/filebrowser/filebrowser)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gaowanliang&repo=OneDriveShareLinkPushAria2)](https://github.com/gaowanliang/OneDriveShareLinkPushAria2)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gaowanliang&repo=OneDriveShareLinkPushAria2)](https://githubfast.com/gaowanliang/OneDriveShareLinkPushAria2)
 
 
 

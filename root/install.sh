@@ -30,4 +30,4 @@ echo $OS_type
 
 curl https://rclone.org/install.sh | sudo bash
 
-curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
+curl -fsSL https://raw.githubusercontents.com/filebrowser/get/master/get.sh | bash

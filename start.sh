@@ -13,12 +13,12 @@ mkdir /.config/
 mkdir /.config/rclone
 touch /.config/rclone/rclone.conf
 
-wget https://raw.githubusercontent.com/P3TERX/aria2_perfect_config/master/tracker.sh
+wget https://raw.githubusercontents.com/P3TERX/aria2_perfect_config/master/tracker.sh
 chmod 0777 /tracker.sh
 /bin/bash tracker.sh "/root/.aria2/aria2.conf"
 
 rm -rf /bot
-git clone https://github.com/666wcy/ARPT-Bot.git
+git clone https://githubfast.com/666wcy/ARPT-Bot.git
 mkdir /bot/
 mv /ARPT-Bot/bot/* /bot/
 

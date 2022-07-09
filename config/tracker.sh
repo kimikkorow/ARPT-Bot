@@ -5,7 +5,7 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
-# https://github.com/P3TERX/aria2.conf
+# https://githubfast.com/P3TERX/aria2.conf
 # File name：tracker.sh
 # Description: Get BT trackers and add to Aria2
 # Version: 2.3
@@ -22,8 +22,8 @@ ARIA2_CONF=${1:-aria2.conf}
 DOWNLOADER="curl -fsSL --connect-timeout 3 --max-time 3 --retry 1"
 
 # BT tracker is provided by the following project.
-# https://github.com/XIU2/TrackersListCollection
-# https://github.com/ngosang/trackerslist
+# https://githubfast.com/XIU2/TrackersListCollection
+# https://githubfast.com/ngosang/trackerslist
 # Fallback URLs provided by jsDelivr and Cloudflare Workers
 # https://www.jsdelivr.com
 # https://workers.cloudflare.com/

@@ -5,7 +5,7 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
-# https://github.com/P3TERX/aria2.conf
+# https://githubfast.com/P3TERX/aria2.conf
 # File name：delete.sh
 # Description: Delete files after Aria2 download error
 # Version: 2.1

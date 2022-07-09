@@ -5,7 +5,7 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
-# https://github.com/P3TERX/aria2.conf
+# https://githubfast.com/P3TERX/aria2.conf
 # File name：clean.sh
 # Description: Delete .aria2 file after Aria2 download is complete
 # Version: 2.1
